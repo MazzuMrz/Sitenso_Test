@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sitenso_Test/precache-manifest.f9997bcc2730d7460436fa7015320050.js"
+  "/Sitenso_Test/precache-manifest.283e5bb7f3b6b51b2d56be2bca6e4c48.js"
 );
 
 self.addEventListener('message', (event) => {
