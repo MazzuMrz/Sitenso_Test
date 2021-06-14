@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Burguer a lo Bugs Bunny",
+        "price": "$520",
+        "description": "Hamburguesa doble de zanahoria con queso cheddar y papas al verdeo (Vegana)",
+        "image": "https://www.comedera.com/wp-content/uploads/2019/12/salsa-hamburguesa-2.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Burguer Lenteja",
+        "price": "$650",
+        "description": "Hamburguesa CUADRUPLE de LENTEJA con queso cheddar, panceta, huevo y papas al verdeo (100% Veggie)",
+        "image": "https://www.excelsiorcalifornia.com/wp-content/uploads/2018/06/0628_FEA_OCR-L-Top10Burgers-51.jpg?w=467"
+    },
+    {
+        "id": 3,
+        "name": "Bajon de medianoche #VEGGIE",
+        "price": "$1550",
+        "description": "Combo loquisimo de 6 hamburguesas surtidas con papas! (Vegetariana)",
+        "image": "https://static.wixstatic.com/media/12a680_a53f61f2b19048f8aab298f6bc26c272~mv2.jpg/v1/fill/w_1000,h_995,al_c,q_90,usm_0.66_1.00_0.01/12a680_a53f61f2b19048f8aab298f6bc26c272~mv2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "La de Michael Scott",
+        "price": "$500",
+        "description": "Hamburguesa doble con queso cheddar (100% Veggie) , papas al verdeo y aros de cebolla, te juro que quedaras lleno -that's what she said- ",
+        "image": "https://i.pinimg.com/originals/c1/0a/7f/c10a7fe38e76fe05311b0229d3194e60.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Burguer Loca",
+        "price": "$350",
+        "description": "Probala y sabrás (100% Veggie) ",
+        "image": "https://www.hola.com/imagenes/cocina/recetas/20190819146554/hamburguesas-vegetarianas-recetas/0-705-234/veganas-z.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Burguer de las Burguers",
+        "price": "$550",
+        "description": "Hamburguesa de poroto con queso azul y aros de Cebolla (Vegetariana)",
+        "image": "https://www.hola.com/imagenes/cocina/nutricion/20181115132684/recetas-vegetarianas-hamburguesa-pizza/0-618-404/recetas-veggie-m.jpg"
+    }
+]

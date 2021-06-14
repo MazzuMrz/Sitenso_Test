@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Burguer Picantovich",
+        "price": "$520",
+        "description": "Hamburguesa doble con queso cheddar y papas al verdeo",
+        "image": "https://ep01.epimg.net/economia/imagenes/2019/11/12/actualidad/1573563004_166027_1573571338_noticia_normal.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Burguer Argenta",
+        "price": "$650",
+        "description": "Hamburguesa CUADRUPLE con queso cheddar, panceta, huevo y papas al verdeo",
+        "image": "https://www.recetasdesbieta.com/wp-content/uploads/2018/04/hamburguesas-caseras-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bajon de medianoche",
+        "price": "$1550",
+        "description": "Combo loquisimo de 6 hamburguesas surtidas con papas!",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Qrre3RTnq2_i1YdEqaq2ltAz2GFG6dfBXyYJ3tFN_yF-4s0ty9y4j9QkOHVZ7NqMFGE&usqp=CAU"
+    },
+    {
+        "id": 4,
+        "name": "La del Walter White",
+        "price": "$500",
+        "description": "Hamburguesa doble con queso cheddar, papas al verdeo y nuestra sutancia AZUL",
+        "image": "http://media4.s-nbcnews.com/i/streams/2013/March/130315/1C6471731-tdy-130315-breakingbad-2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Burguer Loca",
+        "price": "$350",
+        "description": "Muchas fritura y muchas cosas ricas todo refrito, si, hasta el tomate   ",
+        "image": "https://restauracionnews.com/wp-content/uploads/2019/05/Ribs-nueva-hamburguesa.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Burguer de las Burguers",
+        "price": "$550",
+        "description": "La hamburguesa que deja en verguenza a cualquier cosa entre dos panes, dejate sorprender ;)",
+        "image": "https://i.redd.it/jk9kllaorr211.jpg"
+    }
+]
