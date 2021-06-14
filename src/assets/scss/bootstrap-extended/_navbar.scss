@@ -294,10 +294,7 @@
           }
         }
 
-        a.nav-link-search,
-        a.nav-link-expand {
-          // padding: 1.4rem 1rem 1.3rem 1rem;
-        }
+        
 
         div.input-group {
           padding: 0.7rem 1rem;
@@ -384,10 +381,7 @@
     }
   }
 
-  &.navbar-with-menu {
-    .navbar-container {
-    }
-  }
+ 
 
   .nav-item + .nav-item {
     margin-left: 0rem;
@@ -690,24 +684,7 @@
   }
 
   // light navbar
-  .navbar-light,
-  .navbar-semi-light {
-    .navbar-header {
-      .navbar-nav {
-        .nav-link {
-          // color: $gray-600;
-        }
-      }
-    }
-
-    .navbar-container {
-      .navbar-nav {
-        .nav-link {
-          // color: $gray-600;
-        }
-      }
-    }
-  }
+  
 
   .header-navbar {
     .navbar-container {

@@ -9,16 +9,15 @@ const navigationConfig = [
     permissions: ["admin", "editor"],
     navLink: "/"
   },
+ 
   {
-    id: "page2",
-    title: "Editar items",
+    id: "login",
+    title: "Login",
     type: "item",
-    icon: <Icon.Coffee size={30} />,
+    icon: <Icon.LogIn size={30} />,
     permissions: ["admin", "editor"],
-    navLink: "/page2"
+    navLink: "/admin"
   },
-  
-
   
 
 ]

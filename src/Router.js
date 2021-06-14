@@ -9,11 +9,12 @@ import { ContextLayout } from "./utility/context/Layout"
 let Home = lazy(() =>
   import("./views/pages/Home")
 )
+
 let Page2 = lazy(() =>
   import("./views/pages/Page2")
 )
 
-const login = lazy(() =>
+let login = lazy(() =>
   import("./views/pages/authentication/login/Login")
 )
 
@@ -70,12 +71,13 @@ class AppRouter extends React.Component {
             component={Home}
           />
           <AppRoute
-            exact
+            
             path="/page2"
             component={Page2}
           />
           <AppRoute
-            path="/pages/login"
+            
+            path="/admin"
             component={login}
             fullLayout
           />

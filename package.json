@@ -1,5 +1,5 @@
 {
-  "name": "vuexy-react-admin-dashboard",
+  "name": "burguer-factory",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -113,5 +113,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://mazzumrz.github.io/Eccomerce_vuexy/"
+  "homepage": "https://mazzumrz.github.io/Sitenso_Test/"
 }
