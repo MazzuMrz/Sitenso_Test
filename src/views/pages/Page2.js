@@ -6,11 +6,11 @@ import Tablaveggie from '../../components/tablaveggie'
 const Page2 = () => {
   return (
     <div>
-      <h1 className="text-center">Burguers picantes</h1>
+      <h1 className="text-center pt-5">Burgers picantes</h1>
       <Tablapicante />
-      <h1 className="text-center">Veggies</h1>
+      <h1 className="text-center pt-5">Veggies</h1>
       <Tablaveggie />
-      <h1 className="text-center">Ofertas</h1>
+      <h1 className="text-center pt-5">Ofertas</h1>
       <Tablaofertas />
 
     </div>

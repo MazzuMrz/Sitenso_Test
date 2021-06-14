@@ -77,7 +77,7 @@ class NavbarUser extends React.PureComponent {
                   </Media>
                   <Media body>
                     <Media heading className="danger media-heading" tag="h6">
-                     50% en Veggies Burguers
+                     50% en Veggies Burgers
                     </Media>
                     <p className="notification-text">
                       Por tu panza y el ambiente♥
@@ -103,7 +103,7 @@ class NavbarUser extends React.PureComponent {
                   </Media>
                   <Media body>
                     <Media heading className="warning media-heading" tag="h6">
-                      2x1 en Burguers picantes
+                      2x1 en Burgers picantes
                     </Media>
                     <p className="notification-text">
                       Para pasarla entre amigos;)
@@ -132,7 +132,7 @@ class NavbarUser extends React.PureComponent {
                       Dia de la cerveza!
                     </Media>
                     <p className="notification-text">
-                      Si pedis 3 burguers te regalamos la 4ta!
+                      Si pedis 3 Burgers te regalamos la 4ta!
                     </p>
                   </Media>
                   <small>
@@ -160,7 +160,7 @@ class NavbarUser extends React.PureComponent {
               <span className="user-name text-bold-600">
                 {this.props.userName}
               </span>
-              <span className="user-status">Burguer factory</span>
+              <span className="user-status">Burger factory</span>
             </div>
             <span data-tour="user">
               <img

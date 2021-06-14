@@ -7,7 +7,7 @@ import logo from '../assets/img/logo/logo.png'
 const card_about = () => {
   return (
     <div>
-      <CardGroup >
+      <CardGroup className="descrip" >
         <Card>
           <Card.Body>
             <Card.Title>
@@ -16,7 +16,7 @@ const card_about = () => {
                   <BiHappyBeaming />
                 </div>
               </IconContext.Provider>
-              <p className="pt-2 h2  card_titles">Atencion personalizada</p>
+              <p className="pt-2 h2 text-warning  card_titles">Atencion personalizada</p>
             </Card.Title>
             <Card.Text>
               La mejor atencion del area limitrofe para vos, para que la
@@ -32,7 +32,7 @@ const card_about = () => {
                   <FaHamburger />
                 </div>
               </IconContext.Provider>
-              <p className="pt-2 h2  card_titles"> Ingredientes</p>
+              <p className="pt-2 h2 text-warning  card_titles"> Ingredientes</p>
             </Card.Title>
             <Card.Text>
               Siempre usamos los ingrediente mas frescos y de mejor calidad del
@@ -48,7 +48,7 @@ const card_about = () => {
                   <AiOutlineFieldTime />
                 </div>
               </IconContext.Provider>
-              <p  className="pt-2 h2 card_titles">Rapidisimo</p>
+              <p  className="pt-2 h2 text-warning card_titles">Rapidisimo</p>
             </Card.Title>
             <Card.Text>
               Nuestros cadetes fueron entrenados con el RayoMcqueen para que tu comida llegue igual de caliente que como salió del horno

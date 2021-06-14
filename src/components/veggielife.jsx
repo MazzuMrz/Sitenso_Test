@@ -20,7 +20,7 @@ class Productveggie extends Component {
                   <Card.Title>
                     <h1>{productDetail.name}</h1>
                   </Card.Title>
-                  <Card.Text className="texto text-dark">
+                  <Card.Text className="descrip">
                     {productDetail.description}
                   </Card.Text>
                 

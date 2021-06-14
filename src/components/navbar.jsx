@@ -12,7 +12,7 @@ const navbar = () => {
             <Nav.Link href="#index">Inicio</Nav.Link>
             <NavDropdown title="Categorias" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#picantes">
-                Burguers picantes
+                Burgers picantes
               </NavDropdown.Item>
               <NavDropdown.Item href="#ofertas">
                 Ofertas del dia

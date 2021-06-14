@@ -5,7 +5,7 @@ import ProductData from "../../src/components/datas/datapicante.json";
 class picantes extends Component {
   render() {
     return (
-      <div className=" d-flex justify-content-center row ml-auto mr-auto">
+      <div className=" d-flex justify-content-center row ml-auto mr-auto shadow-none">
         {ProductData.map((productDetail, index) => {
           return (
             <div className=" m-3 ">
@@ -19,7 +19,7 @@ class picantes extends Component {
                   <Card.Title>
                     <h1>{productDetail.name}</h1>
                   </Card.Title>
-                  <Card.Text className="">
+                  <Card.Text className="descrip">
                     {productDetail.description}
                   </Card.Text>
                 
