@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sitenso_Test/static/css/main.1e681f1d.chunk.css",
-    "main.js": "/Sitenso_Test/static/js/main.71916495.chunk.js",
-    "main.js.map": "/Sitenso_Test/static/js/main.71916495.chunk.js.map",
+    "main.js": "/Sitenso_Test/static/js/main.314bb7db.chunk.js",
+    "main.js.map": "/Sitenso_Test/static/js/main.314bb7db.chunk.js.map",
     "runtime-main.js": "/Sitenso_Test/static/js/runtime-main.a3367d8f.js",
     "runtime-main.js.map": "/Sitenso_Test/static/js/runtime-main.a3367d8f.js.map",
     "static/css/2.60097a3a.chunk.css": "/Sitenso_Test/static/css/2.60097a3a.chunk.css",
@@ -21,7 +21,7 @@
     "static/js/7.c8f83180.chunk.js": "/Sitenso_Test/static/js/7.c8f83180.chunk.js",
     "static/js/7.c8f83180.chunk.js.map": "/Sitenso_Test/static/js/7.c8f83180.chunk.js.map",
     "index.html": "/Sitenso_Test/index.html",
-    "precache-manifest.0efa34ddff6259c0c40e653e66659d5a.js": "/Sitenso_Test/precache-manifest.0efa34ddff6259c0c40e653e66659d5a.js",
+    "precache-manifest.8ddeecf20bcb2588edea3177ce0d878d.js": "/Sitenso_Test/precache-manifest.8ddeecf20bcb2588edea3177ce0d878d.js",
     "service-worker.js": "/Sitenso_Test/service-worker.js",
     "static/css/2.60097a3a.chunk.css.map": "/Sitenso_Test/static/css/2.60097a3a.chunk.css.map",
     "static/css/4.9233ae65.chunk.css.map": "/Sitenso_Test/static/css/4.9233ae65.chunk.css.map",
@@ -38,6 +38,6 @@
     "static/css/2.60097a3a.chunk.css",
     "static/js/2.3ee8c43d.chunk.js",
     "static/css/main.1e681f1d.chunk.css",
-    "static/js/main.71916495.chunk.js"
+    "static/js/main.314bb7db.chunk.js"
   ]
 }
