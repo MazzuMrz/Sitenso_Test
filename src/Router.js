@@ -14,7 +14,7 @@ let Page2 = lazy(() =>
   import("./views/pages/Page2")
 )
 
-let login = lazy(() =>
+let Login = lazy(() =>
   import("./views/pages/authentication/login/Login")
 )
 
@@ -76,9 +76,9 @@ class AppRouter extends React.Component {
             component={Page2}
           />
           <AppRoute
-            
+            exact
             path="/admin"
-            component={login}
+            component={Login}
             fullLayout
           />
         </Switch>

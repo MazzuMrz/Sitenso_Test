@@ -9,7 +9,7 @@ const navigationConfig = [
     permissions: ["admin", "editor"],
     navLink: "/"
   },
- 
+
   {
     id: "login",
     title: "Login",
@@ -17,7 +17,7 @@ const navigationConfig = [
     icon: <Icon.LogIn size={30} />,
     permissions: ["admin", "editor"],
     navLink: "/admin"
-  },
+  }
   
 
 ]

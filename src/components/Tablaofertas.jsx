@@ -108,9 +108,9 @@ class Tablaofertas extends React.Component {
           <Table>
             <thead>
               <tr>
-                <th>ID</th>
+                <th >ID</th>
                 <th>Nombre</th>
-                <th>Descripcion</th>
+                <th className="d-none d-lg-block">Descripcion</th>
                 <th>Precio</th>
 
                 <th>Acción</th>
@@ -120,9 +120,9 @@ class Tablaofertas extends React.Component {
             <tbody>
               {this.state.data.map((dato) => (
                 <tr key={dato.id}>
-                  <td>{dato.id}</td>
+                  <td >{dato.id}</td>
                   <td>{dato.name}</td>
-                  <td>{dato.description}</td>
+                  <td className="d-none d-lg-block">{dato.description}</td>
                   <td>{dato.price}</td>
                   <td>
                     <Button

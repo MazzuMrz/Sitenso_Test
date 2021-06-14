@@ -9,6 +9,7 @@ const navigationConfig = [
     permissions: ["admin", "editor"],
     navLink: "/"
   },
+
   {
     id: "login",
     title: "Login",
