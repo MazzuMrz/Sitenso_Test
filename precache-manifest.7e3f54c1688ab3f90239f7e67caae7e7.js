@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e36d3696549804d552262b3deffe222",
+    "revision": "ca6ec25831926d5a32e168f66d795aa6",
     "url": "/Sitenso_Test/index.html"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/css/5.9233ae65.chunk.css"
   },
   {
-    "revision": "3f972b72b95abd078952",
+    "revision": "c674c3f20679d9b61be3",
     "url": "/Sitenso_Test/static/css/8.c7324919.chunk.css"
   },
   {
-    "revision": "c7bd57723d26c04909d5",
-    "url": "/Sitenso_Test/static/css/main.134588f0.chunk.css"
+    "revision": "5c01e42311f05dd29014",
+    "url": "/Sitenso_Test/static/css/main.eb1bc310.chunk.css"
   },
   {
     "revision": "2ea350725007dafb67f7",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/6.7e224210.chunk.js"
   },
   {
-    "revision": "b3af19eedadee1b39d4b",
-    "url": "/Sitenso_Test/static/js/7.f758c2f9.chunk.js"
+    "revision": "a0825b67ad824bc51775",
+    "url": "/Sitenso_Test/static/js/7.699297ce.chunk.js"
   },
   {
-    "revision": "3f972b72b95abd078952",
-    "url": "/Sitenso_Test/static/js/8.57b3ff61.chunk.js"
+    "revision": "c674c3f20679d9b61be3",
+    "url": "/Sitenso_Test/static/js/8.7a382d2e.chunk.js"
   },
   {
-    "revision": "c7bd57723d26c04909d5",
-    "url": "/Sitenso_Test/static/js/main.3436f5b5.chunk.js"
+    "revision": "5c01e42311f05dd29014",
+    "url": "/Sitenso_Test/static/js/main.5a423ba8.chunk.js"
   },
   {
-    "revision": "cf94c482a4067df3e87d",
-    "url": "/Sitenso_Test/static/js/runtime-main.f066469f.js"
+    "revision": "de7909e7b6fbbeaf9db2",
+    "url": "/Sitenso_Test/static/js/runtime-main.43ee7ee6.js"
   },
   {
     "revision": "b1b0e9087780461d47f996cbdf08b5e3",
