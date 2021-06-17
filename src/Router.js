@@ -67,7 +67,8 @@ class AppRouter extends React.Component {
         <Switch>
           <AppRoute
             exact
-            path="/"
+            path="/Sitenso_Test"
+            
             component={Home}
           />
           <AppRoute

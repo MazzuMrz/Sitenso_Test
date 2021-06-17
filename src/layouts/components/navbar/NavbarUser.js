@@ -1,20 +1,17 @@
 import React from "react"
 import {
-  NavItem,
-  NavLink,
+
   UncontrolledDropdown,
   DropdownMenu,
   DropdownItem,
   DropdownToggle,
   Media,
-  Badge
+  
 } from "reactstrap"
 import PerfectScrollbar from "react-perfect-scrollbar"
 import axios from "axios"
 import * as Icon from "react-feather"
-import classnames from "classnames"
-import Autocomplete from "../../../components/@vuexy/autoComplete/AutoCompleteComponent"
-import { history } from "../../../history"
+
 
 
 
@@ -48,10 +45,7 @@ class NavbarUser extends React.PureComponent {
         >
           <DropdownToggle tag="a" className="nav-link nav-link-label">
             <Icon.Bell size={21} />
-            <Badge pill color="danger"  className="badge-up">
-              {" "}
-              !{" "}
-            </Badge>
+           
           </DropdownToggle>
           <DropdownMenu tag="ul" right className="dropdown-menu-media">
             <li className="dropdown-menu-header bg-danger">

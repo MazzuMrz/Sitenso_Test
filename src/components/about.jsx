@@ -57,7 +57,7 @@ const card_about = () => {
         </Card>
       </CardGroup>
       <h1 className="pt-3">Buen provecho te desea:</h1>
-      <img src={logo} className="w-25 " />
+      <img src={logo} className="w-25" alt="Nuestro logo" />
       
     </div>
   );

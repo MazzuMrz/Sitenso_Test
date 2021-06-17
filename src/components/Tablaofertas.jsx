@@ -50,7 +50,7 @@ class Tablaofertas extends React.Component {
     let contador = 0;
     let arreglo = this.state.data;
     arreglo.map((registro) => {
-      if (dato.id == registro.id) {
+      if (dato.id === registro.id) {
         arreglo[contador].name = dato.name;
         arreglo[contador].price = dato.price;
         arreglo[contador].description = dato.description;
@@ -65,11 +65,11 @@ class Tablaofertas extends React.Component {
     let opcion = window.confirm(
       "Estás Seguro que deseas Eliminar el elemento " + dato.name
     );
-    if (opcion == true) {
+    if (opcion === true) {
       let contador = 0;
       let arreglo = this.state.data;
       arreglo.map((registro) => {
-        if (dato.id == registro.id) {
+        if (dato.id === registro.id) {
           arreglo.splice(contador, 1);
         }
         contador++;
@@ -108,7 +108,7 @@ class Tablaofertas extends React.Component {
           <Table>
             <thead>
               <tr>
-                <th >ID</th>
+                <th>ID</th>
                 <th>Nombre</th>
                 <th className="d-none d-lg-block">Descripcion</th>
                 <th>Precio</th>
@@ -120,7 +120,7 @@ class Tablaofertas extends React.Component {
             <tbody>
               {this.state.data.map((dato) => (
                 <tr key={dato.id}>
-                  <td >{dato.id}</td>
+                  <td>{dato.id}</td>
                   <td>{dato.name}</td>
                   <td className="d-none d-lg-block">{dato.description}</td>
                   <td>{dato.price}</td>

@@ -7,7 +7,7 @@ const navigationConfig = [
     type: "item",
     icon: <Icon.Smile size={30} />,
     permissions: ["admin", "editor"],
-    navLink: "/"
+    navLink: "/Sitenso_Test"
   },
 
   {

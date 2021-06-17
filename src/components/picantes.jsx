@@ -22,9 +22,11 @@ class picantes extends Component {
                   <Card.Text className="descrip">
                     {productDetail.description}
                   </Card.Text>
-                
+
                   <h4>{productDetail.price}</h4>
-                  <Button className="text-danger bg-warning button">Comprar</Button>
+                  <Button className="text-danger bg-warning button">
+                    Comprar
+                  </Button>
                 </Card.Body>
               </Card>
             </div>

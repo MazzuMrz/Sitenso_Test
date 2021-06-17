@@ -17,10 +17,7 @@ const ingreso = () => {
             <div className="conh1 ">
               <h1>A tu placer!</h1>
             </div>
-            <div
-              className="conh3 bg-danger d-none d-sm-block d-xs-none d-md-block d-lg-block "
-                            
-            >
+            <div className="conh3 bg-danger d-none d-sm-block d-xs-none d-md-block d-lg-block ">
               <h3 className="">Busca que vas a comer hoy</h3>
             </div>
           </Carousel.Caption>
@@ -38,10 +35,7 @@ const ingreso = () => {
             <div className="conh1 ">
               <h1>Sin culpa ;)</h1>
             </div>
-            <div
-              className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block "
-
-            >
+            <div className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block ">
               <h3 className="">Segun tu paladar</h3>
             </div>
           </Carousel.Caption>
@@ -59,10 +53,7 @@ const ingreso = () => {
             <div className="conh1 ">
               <h1>Experimentá!</h1>
             </div>
-            <div
-              className="conh3 d-none d-sm-block d-md-block d-lg-block "
-
-            >
+            <div className="conh3 d-none d-sm-block d-md-block d-lg-block ">
               <h3 className="">Cosas nuevas todos los dias ;) </h3>
             </div>
           </Carousel.Caption>
