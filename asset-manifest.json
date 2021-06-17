@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Sitenso_Test/static/css/main.eb1bc310.chunk.css",
-    "main.js": "/Sitenso_Test/static/js/main.5a423ba8.chunk.js",
-    "main.js.map": "/Sitenso_Test/static/js/main.5a423ba8.chunk.js.map",
+    "main.css": "/Sitenso_Test/static/css/main.1cb2272a.chunk.css",
+    "main.js": "/Sitenso_Test/static/js/main.ae51f642.chunk.js",
+    "main.js.map": "/Sitenso_Test/static/js/main.ae51f642.chunk.js.map",
     "runtime-main.js": "/Sitenso_Test/static/js/runtime-main.43ee7ee6.js",
     "runtime-main.js.map": "/Sitenso_Test/static/js/runtime-main.43ee7ee6.js.map",
     "static/css/2.a5f06b7f.chunk.css": "/Sitenso_Test/static/css/2.a5f06b7f.chunk.css",
@@ -24,13 +24,13 @@
     "static/js/8.7a382d2e.chunk.js": "/Sitenso_Test/static/js/8.7a382d2e.chunk.js",
     "static/js/8.7a382d2e.chunk.js.map": "/Sitenso_Test/static/js/8.7a382d2e.chunk.js.map",
     "index.html": "/Sitenso_Test/index.html",
-    "precache-manifest.7e3f54c1688ab3f90239f7e67caae7e7.js": "/Sitenso_Test/precache-manifest.7e3f54c1688ab3f90239f7e67caae7e7.js",
+    "precache-manifest.3871d181a628b1ab832e2da2bce59a3d.js": "/Sitenso_Test/precache-manifest.3871d181a628b1ab832e2da2bce59a3d.js",
     "service-worker.js": "/Sitenso_Test/service-worker.js",
     "static/css/2.a5f06b7f.chunk.css.map": "/Sitenso_Test/static/css/2.a5f06b7f.chunk.css.map",
     "static/css/4.822f1ec7.chunk.css.map": "/Sitenso_Test/static/css/4.822f1ec7.chunk.css.map",
     "static/css/5.9233ae65.chunk.css.map": "/Sitenso_Test/static/css/5.9233ae65.chunk.css.map",
     "static/css/8.c7324919.chunk.css.map": "/Sitenso_Test/static/css/8.c7324919.chunk.css.map",
-    "static/css/main.eb1bc310.chunk.css.map": "/Sitenso_Test/static/css/main.eb1bc310.chunk.css.map",
+    "static/css/main.1cb2272a.chunk.css.map": "/Sitenso_Test/static/css/main.1cb2272a.chunk.css.map",
     "static/js/2.2bc84994.chunk.js.LICENSE.txt": "/Sitenso_Test/static/js/2.2bc84994.chunk.js.LICENSE.txt",
     "static/js/3.7d2b89dd.chunk.js.LICENSE.txt": "/Sitenso_Test/static/js/3.7d2b89dd.chunk.js.LICENSE.txt",
     "static/media/favicon.png": "/Sitenso_Test/static/media/favicon.b1b0e908.png",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.43ee7ee6.js",
     "static/css/2.a5f06b7f.chunk.css",
     "static/js/2.2bc84994.chunk.js",
-    "static/css/main.eb1bc310.chunk.css",
-    "static/js/main.5a423ba8.chunk.js"
+    "static/css/main.1cb2272a.chunk.css",
+    "static/js/main.ae51f642.chunk.js"
   ]
 }
