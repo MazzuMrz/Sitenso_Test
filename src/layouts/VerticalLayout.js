@@ -267,7 +267,7 @@ class VerticalLayout extends PureComponent {
         <Sidebar {...sidebarProps} />
         <div
           className={classnames("app-content content", {
-            "show-overlay": this.state.appOverlay === true
+            "show-overlay": this.state.appOverlay === false
           })}
           onClick={this.handleAppOverlayClick}>
           <Navbar {...navbarProps} />

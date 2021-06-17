@@ -166,13 +166,7 @@ class NavbarBookmarks extends React.PureComponent {
     return (
       <div className="mr-auto float-left bookmark-wrapper d-flex align-items-center">
         <ul className="navbar-nav d-xl-none">
-          <NavItem className="mobile-menu mr-auto">
-            <NavLink
-              className="nav-menu-main menu-toggle hidden-xs is-active"
-              onClick={sidebarVisibility}>
-              <Icon.Menu className="ficon" />
-            </NavLink>
-          </NavItem>
+          
         </ul>
         <ul className="nav navbar-nav bookmark-icons">
           {this.renderBookmarks()}

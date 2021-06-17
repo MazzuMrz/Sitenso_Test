@@ -12,10 +12,10 @@ const ThemeNavbar = props => {
   return (
     <React.Fragment>
      
-      <div className="" />
+      <div className="nav " />
       <Navbar
         className={classnames(
-          "header-navbar navbar-expand-lg navbar",
+          "header-navbar navbar-expand-md navbar mt-auto",
           {
             "navbar-light": props.navbarColor === "default" || !colorsArr.includes(props.navbarColor),
             "navbar-dark": colorsArr.includes(props.navbarColor),
@@ -57,7 +57,8 @@ const ThemeNavbar = props => {
               {props.horizontal ? (
                 <div className="logo d-flex align-items-center">
                   <div className="brand-logo mr-50"></div>
-                  <h2 className="text-danger brand-text mb-0">Burger Factory</h2>
+                  <h4 className="text-danger brand-text mb-0 ">Burger Factory</h4>
+                 
                 </div>
               ) : null}
               <NavbarUser

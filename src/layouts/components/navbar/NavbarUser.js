@@ -36,7 +36,7 @@ class NavbarUser extends React.PureComponent {
 
   render() {
     return (
-      <ul className="nav navbar-nav navbar-nav-user float-right">
+      <ul className="nav navbar-nav navbar-nav-user d-flex row justify-content-center">
 
         
         <UncontrolledDropdown
@@ -44,7 +44,7 @@ class NavbarUser extends React.PureComponent {
           className="dropdown-notification nav-item"
         >
           <DropdownToggle tag="a" className="nav-link nav-link-label">
-            <Icon.Bell size={21} />
+            <Icon.Bell size={30} />
            
           </DropdownToggle>
           <DropdownMenu tag="ul" right className="dropdown-menu-media">
@@ -150,16 +150,16 @@ class NavbarUser extends React.PureComponent {
         </UncontrolledDropdown>
         <UncontrolledDropdown tag="li" className="dropdown-user nav-item">
           <DropdownToggle tag="a" className="nav-link dropdown-user-link">
-            <div className="user-nav d-sm-flex d-none">
-              <span className="user-name text-bold-600">
+            <div className="user-nav d-none d-xs-none ">
+              <span className="user-name text-bold-1000" href="home">
                 {this.props.userName}
               </span>
-              <span className="user-status">Burger factory</span>
+              <span className="user-status " href="home"> Burger factory</span>
             </div>
             <span data-tour="user">
               <img
                 src={this.props.userImg}
-                className="round"
+                className="round d-none d-sm-none"
                 height="40"
                 width="40"
                 alt="avatar"

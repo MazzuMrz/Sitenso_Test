@@ -12,14 +12,14 @@ class SideMenuContent extends React.Component {
     super(props)
 
     this.parentArr = []
-    this.collapsedPath = null
+    this.collapsedPath = true
     this.redirectUnauthorized = () => {
       history.push("/misc/not-authorized")
     }
   }
   state = {
-    flag: true,
-    isHovered: false,
+    flag: false,
+    isHovered: true,
     activeGroups: [],
     currentActiveGroup: [],
     tempArr: []

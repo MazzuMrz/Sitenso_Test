@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { Badge } from "reactstrap"
+
 import classnames from "classnames"
-import { ChevronRight } from "react-feather"
+
 class SideMenuGroup extends React.Component {
   constructor(props) {
     super(props)
-    this.flag = true
+    this.flag = false
     this.parentArray = []
     this.childObj = {}
   }
@@ -121,22 +121,11 @@ class SideMenuGroup extends React.Component {
                           {child.title}
                         </span>
                       </div>
-                      {child.badge ? (
-                        <Badge
-                          color={child.badge}
-                          className="float-right mr-2"
-                          pill
-                        >
-                          {child.badgeText}
-                        </Badge>
-                      ) : (
-                        ""
-                      )}
-                      {child.type === "collapse" ? (
-                        <ChevronRight className="menu-toggle-icon" size={13} />
-                      ) : (
-                        ""
-                      )}
+                    
+                        
+                    
+                    
+                       
                     </CustomAnchorTag>
 
                     {child.children

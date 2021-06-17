@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-body{
-    background-color: #F2C029 
-}
-.navitems{
-    color: #F2C029;
-}
-.slider{
-  height: 100%;
-}
+
+
+
 
 .nav{
   font-family: 'Bebas Neue', cursive;
   font-weight: bold;
   font-size: 25px;
-  line-height: 1em; 
+  
 }
 .menudown:hover{
   background-color: #df4759;
@@ -38,7 +32,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight:inherit;
   background-color: #F2C029;
-  padding: -1px;
+  padding: 0px;
   
 }
 
@@ -58,9 +52,7 @@ body{
   
 }
 
-.brandtext{
-  color: #176dde;
-}
+
 .image{
 
 max-height: 15rem;
@@ -122,12 +114,7 @@ h3{
   font-family: 'Bebas Neue', cursive;
 }
 
-.titulo {
-  font-size: x-large;
-}
-.cocina {
-  font-size: x-large;
-}
+
 .cont {
   display: flex;
   justify-content: center;
@@ -149,5 +136,5 @@ h3{
 }
 .title{
   font-family: 'Bebas Neue', cursive;
-  font-weight: bolder;
+  
 }

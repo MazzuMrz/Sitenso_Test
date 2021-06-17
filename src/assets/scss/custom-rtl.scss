@@ -415,32 +415,3 @@ html[dir="rtl"] {
  }
 }
 
-@media (max-width: 768px) {
-  html[dir="rtl"]{
-    .app-content {
-      .header-navbar {
-        .dropdown {
-          &.dropdown-notification {
-            .dropdown-menu {
-              transform: translate3d(26px, 59px, 0px) !important;
-              &.dropdown-cart {
-                transform: translate3d(26px, 59px, 0px) !important;
-              }
-            }
-          }
-          &.dropdown-user {
-            .dropdown-menu {
-              left: 0 !important;
-              right: 28px !important;
-            }
-          }
-          &.dropdown-language {
-            .dropdown-menu {
-              transform: translate3d(26px, 64px, 0px) !important;
-            }
-          }
-        }
-      }
-    }
-  }
-}
