@@ -48,13 +48,13 @@ updateScroll = () => {
 
   componentDidMount() {
     if (window !== "undefined") {
-      window.addEventListener("resize", this.updateWidth, true)
-      window.addEventListener("scroll", this.updateScroll, true)
+      window.addEventListener("resize", this.updateWidth, false)
+      window.addEventListener("scroll", this.updateScroll, false)
     }
     if (this.props.location.pathname === "/pages/profile") {
       this.setState({
         sidebarState: true,
-        collapsedContent: false
+        collapsedContent: true
       })
     }
     let layout = this.props.app.customizer.theme

@@ -5,7 +5,7 @@ import Tablaveggie from '../../components/tablaveggie'
 
 const Page2 = () => {
   return (
-    <div>
+    <div className="pt-5">
       <h1 className="text-center pt-5">Burgers picantes</h1>
       <Tablapicante />
       <h1 className="text-center pt-5">Veggies</h1>

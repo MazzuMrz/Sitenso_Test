@@ -34,27 +34,27 @@ class Login extends React.Component {
   }
   render() {
     return (
-      <Row className="m-0 justify-content-center">
+      <Row className="mt-8  justify-content-center">
         <Col
           sm="8"
           xl="7"
           lg="10"
           md="8"
-          className="d-flex justify-content-center"
+          className="d-flex justify-content-center mt-6"
         >
-          <Card className="bg-authentication login-card rounded-0 mb-0 w-100">
-            <Row className="m-0">
+          <Card className="bg-authentication mt-6 login-card rounded-0 mb-0 w-100">
+            <Row className="m-5">
               <Col
                 lg="6"
                 className="d-lg-block d-none text-center align-self-center px-1 py-0"
               >
                 <img src={loginImg} alt="loginImg" className="w-100" />
               </Col>
-              <Col lg="6" md="12" className="p-0">
-                <Card className="rounded-0 mb-0 px-2">
+              <Col lg="6" md="12" className="pt-10">
+                <Card className="rounded-0 mb-2 px-2">
                       <CardBody>
-                        <h4>Panel Admin</h4>
-                        <p>Porfavor, usá las credenciales brindadas por tu Admin</p>
+                        <h4 className="mb-4">Panel Admin</h4>
+                        
                         <Form onSubmit={e => e.preventDefault()}>
                           <FormGroup className="form-label-group position-relative has-icon-left">
                             <Input
@@ -86,9 +86,7 @@ class Login extends React.Component {
                               icon={<Check className="vx-icon" size={16} />}
                               label="Recordarme"
                             />
-                            <div className="float-right">
-                              Olvidaste tu contraseña?
-                            </div>
+                            
                           </FormGroup>
                           <div className="d-flex justify-content-between">
                            

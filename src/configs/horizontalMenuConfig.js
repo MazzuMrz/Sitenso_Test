@@ -19,7 +19,6 @@ const navigationConfig = [
     navLink: "/admin"
   },
   
-  
 
   
 
