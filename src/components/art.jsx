@@ -10,19 +10,18 @@ const art = () => {
   return (
     <div>
       <div>
-        <Container className="cont">
-          <Row>
-            
-            <Col className=" m-5 titles_shop" id="ofertas">
+        <Container className="cont mt-5">
+          <Row className="m-0">
+            <Col className=" m-3 titles_shop" id="ofertas">
               Ofertas del dia
             </Col>
             <ProductList />
-            <Col className=" m-5 titles_shop text-success" id="veggie">
+            <Col className=" m-3 titles_shop text-success" id="veggie">
               100% Veggie
             </Col>
             <Productveggie />
 
-            <Col className="m-5 titles_shop text-danger" id="picantes">
+            <Col className="m-3 titles_shop text-danger" id="picantes">
               Burgers Picantes
             </Col>
             <Picantes />

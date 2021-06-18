@@ -114,7 +114,7 @@ class NavbarBookmarks extends React.PureComponent {
                           ref={provided.innerRef}
                           {...provided.draggableProps}
                           {...provided.dragHandleProps}>
-                          <NavItem className="nav-item d-none d-lg-block">
+                          <NavItem className="nav-item d-none d-xs-none">
                             <NavLink
                               tag="span"
                               id={item.target}
@@ -183,7 +183,7 @@ class NavbarBookmarks extends React.PureComponent {
             </NavItem>
           ) : null}
           <NavItem
-            className="nav-item d-none d-lg-block d-md-block"
+            className="nav-item d-none d-md-block"
             onClick={this.handleBookmarksVisibility}>
             <NavLink>
               <Icon.Search className="text-warning" size={21} />
@@ -192,8 +192,8 @@ class NavbarBookmarks extends React.PureComponent {
               className={classnames("bookmark-input search-input", {
                 show: this.state.showBookmarks
               })}>
-              <div className="bookmark-input-icon">
-                <Icon.Search size={15} className="primary" />
+              <div className="btn btn-danger">
+                Buscar
               </div>
 
               <AutoComplete
@@ -209,7 +209,7 @@ class NavbarBookmarks extends React.PureComponent {
                 onKeyDown={e => {
                   if (e.keyCode === 27 || e.keyCode === 13) {
                     this.setState({
-                      showBookmarks: false
+                      showBookmarks: true
                     })
                     handleAppOverlay("")
                   }
@@ -252,16 +252,7 @@ class NavbarBookmarks extends React.PureComponent {
                             {suggestion.title}
                           </span>
                         </Link>
-                        <Icon.Star
-                          className={classnames({
-                            "text-warning": suggestion.starred === true
-                          })}
-                          size={17}
-                          onClick={e => {
-                            updateStarred(suggestion)
-                            e.stopPropagation()
-                          }}
-                        />
+
                       </li>
                     )
                   } else {

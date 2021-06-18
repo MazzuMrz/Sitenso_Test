@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
       <div>
         <Container >
-          <Carousel className="d-none d-sm-none d-lg-block" >
+          <Carousel className="d-none d-xs-none d-md-block" >
             <Carousel.Item>
               
               <img
