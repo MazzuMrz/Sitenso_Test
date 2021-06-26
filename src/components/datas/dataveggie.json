@@ -10,21 +10,21 @@
         "id": 2,
         "name": "Burguer Lenteja",
         "price": "$650",
-        "description": "Hamburguesa CUADRUPLE de LENTEJA con queso cheddar, panceta, huevo y papas al verdeo (100% Veggie)",
+        "description": "Hamburguesa CUADRUPLE de LENTEJA con queso cheddar (100% Veggie)",
         "image": "https://www.excelsiorcalifornia.com/wp-content/uploads/2018/06/0628_FEA_OCR-L-Top10Burgers-51.jpg?w=467"
     },
     {
         "id": 3,
-        "name": "Bajon de medianoche #VEGGIE",
+        "name": "Bajon #VEGGIE",
         "price": "$1550",
-        "description": "Combo loquisimo de 6 hamburguesas surtidas con papas! (Vegetariana)",
+        "description": "Combo de 6 hamburguesas surtidas!",
         "image": "https://static.wixstatic.com/media/12a680_a53f61f2b19048f8aab298f6bc26c272~mv2.jpg/v1/fill/w_1000,h_995,al_c,q_90,usm_0.66_1.00_0.01/12a680_a53f61f2b19048f8aab298f6bc26c272~mv2.jpg"
     },
     {
         "id": 4,
-        "name": "La de Michael Scott",
+        "name": "Michael Scott",
         "price": "$500",
-        "description": "Hamburguesa doble con queso cheddar (100% Veggie) , papas al verdeo y aros de cebolla, te juro que quedaras lleno -that's what she said- ",
+        "description": "Hamburguesa doble con queso cheddar (100% Veggie) ",
         "image": "https://i.pinimg.com/originals/c1/0a/7f/c10a7fe38e76fe05311b0229d3194e60.jpg"
     },
     {

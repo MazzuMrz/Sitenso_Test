@@ -145,7 +145,6 @@ class NavbarBookmarks extends React.PureComponent {
   render() {
     let {
       bookmarks: { extraStarred, suggestions },
-      sidebarVisibility,
       updateStarred,
       handleAppOverlay
     } = this.props

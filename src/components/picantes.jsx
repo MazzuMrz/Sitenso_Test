@@ -15,7 +15,7 @@ class picantes extends Component {
               >
                 <Card.Img className="image" src={productDetail.image} />
 
-                <Card.Body className="">
+                <Card.Body className="m-3">
                   <Card.Title>
                     <h1>{productDetail.name}</h1>
                   </Card.Title>

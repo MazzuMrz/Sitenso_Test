@@ -1,14 +1,19 @@
 import React from "react";
 import { Carousel, Container } from "react-bootstrap";
 import Art from "../../components/art";
+import Avalible from "../../components/Avalible";
 import Contacto from "../../components/contacto";
+import Smbar from "../../components/smbar";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
+        <Smbar />
+        <Avalible/>
+        <hr/>
         <Container >
-          <Carousel className="d-none d-xs-none d-md-block" >
+          <Carousel className="d-none d-sm-block" >
             <Carousel.Item>
               
               <img
@@ -20,7 +25,7 @@ class Home extends React.Component {
               />
               <Carousel.Caption>
                 <div className="conh1 ">
-                  <h1>A tu placer!</h1>
+                  <h2>A tu placer!</h2>
                 </div>
                 <div className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block ">
                   <h3 className="">Busca que vas a comer hoy</h3>
@@ -38,7 +43,7 @@ class Home extends React.Component {
 
               <Carousel.Caption>
                 <div className="conh1 ">
-                  <h1>Sin culpa ;)</h1>
+                  <h2>Sin culpa ;)</h2>
                 </div>
                 <div className="conh3 d-none d-sm-block d-xs-none d-md-block d-lg-block ">
                   <h3 className="">Segun tu paladar</h3>
@@ -56,7 +61,7 @@ class Home extends React.Component {
 
               <Carousel.Caption>
                 <div className="conh1 ">
-                  <h1>Experimentá!</h1>
+                  <h2>Experimentá!</h2>
                 </div>
                 <div className="conh3 d-none d-sm-block d-md-block d-lg-block ">
                   <h3 className="">Cosas nuevas todos los dias ;) </h3>

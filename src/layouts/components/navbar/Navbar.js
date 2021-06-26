@@ -56,8 +56,8 @@ const ThemeNavbar = props => {
               </div>
               {props.horizontal ? (
                 <div className="logo d-flex align-items-center">
-                  <div className="brand-logo mr-50"></div>
-                  <h4 className="text-danger brand-text mb-0 ">Burger Factory</h4>
+                 
+                  <h1 className="text-danger mb-0 titlenav animate__bounceIn">Burger Factory</h1>
                  
                 </div>
               ) : null}

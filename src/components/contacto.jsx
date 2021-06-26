@@ -73,14 +73,14 @@ const Contacto = () => {
                         rows="2"
                         className="form-control md-textarea"
                       ></textarea>
-                      <h1 for="message bg-danger pt-5 ">Aqui va tu consulta!</h1>
+                      <h1 for="message bg-danger pt-3 ">Aqui va tu consulta!</h1>
                     </div>
                   </div>
                 </div>
               </form>
 
-              <div className="text-center text-md-center m-5">
-                <Button variant="danger" onClick={handleShow}>
+              <div className="text-center  text-md-center m-2">
+                <Button variant="warning" onClick={handleShow}>
                   Enviar
                 </Button>
 
@@ -92,7 +92,7 @@ const Contacto = () => {
                    Nos estaremos poniendo en contacto contigo en la brevedad
                   </Modal.Body>
                   <Modal.Footer>
-                    <Button variant="warning" onClick={handleClose}>
+                    <Button variant="danger" onClick={handleClose}>
                       Salir
                     </Button>
                     

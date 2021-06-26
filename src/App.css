@@ -1,10 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+body {
+  background-color: blanchedalmond;
+}
+.img {
+  width: 150px;
+}
+.img2 {
+  width: 125px;
+}
+
+.titlenav {
+  font-family: "Bebas Neue", cursive;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+.banner {
+  margin-top: 2rem;
+  height: fit-content;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
 .nav {
   font-family: "Bebas Neue", cursive;
   font-weight: bold;
   font-size: 25px;
+
+  animation: bounceIn;
+  animation-duration: 2s;
 }
 .menudown:hover {
   background-color: #df4759;
@@ -12,11 +40,21 @@
 
 .button {
   margin-top: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   font-size: large;
+  animation: pulse;
+  animation-duration: 1s;
+  background: rgba(249, 49, 84, 0.7);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border-radius: 10px;
 }
-
+.button:hover{
+  animation: pulse;
+  animation-duration: 2s;
+}
 .logo {
   height: 5rem;
 }
@@ -26,6 +64,7 @@
   font-weight: inherit;
   background-color: #f2c029;
   padding: 0px;
+  height: fit-content;
 }
 
 .card_titles {
@@ -40,6 +79,15 @@
   font-size: 4rem;
   text-shadow: 5px 0px 2px #f2c029;
   letter-spacing: 0.5rem;
+  background: rgba(255, 169, 0, 0.65);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+}
+.titles_shop:hover{
+  animation: bounce;
+  animation-duration: 2s;
 }
 
 .image {
@@ -55,22 +103,37 @@ a {
   justify-content: center;
   height: fit-content;
   width: auto;
-  background-color: #f2c029;
+  background: rgba(255, 169, 0, 0.6);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+
   border-radius: 10px;
   margin-right: auto;
+  animation: bounceInLeft;
+  animation-duration: 1s;
 }
 
 .conh3 {
-  background-color: #df4759;
+  background: rgba(249, 49, 84, 0.7);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8.7px);
+  -webkit-backdrop-filter: blur(8.7px);
+  border-radius: 10px;
   border-radius: 10px;
   padding: 10px;
+  animation: bounceInRight;
+  animation-duration: 1s;
 }
 
+h2,
 h1 {
   color: #260c07;
   text-shadow: 0px 3px 5px #f2c029;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
+  padding: 5px;
 }
 .text {
   font-family: "Montserrat", sans-serif;
@@ -100,6 +163,11 @@ h3 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
+.image:hover{
+  animation: pulse;
+  animation-duration: 1s;
+}
+
 
 .about {
   font-size: 20px;

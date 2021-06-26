@@ -43,7 +43,7 @@ class NavbarUser extends React.PureComponent {
           tag="li"
           className="dropdown-notification nav-item"
         >
-          <DropdownToggle tag="a" className="nav-link nav-link-label">
+          <DropdownToggle tag="a" className="nav-link nav-link-label bell">
             <Icon.Bell size={30} />
            
           </DropdownToggle>

@@ -6,6 +6,7 @@
     "@auth0/auth0-spa-js": "^1.6.3",
     "ag-grid-community": "^22.1.1",
     "ag-grid-react": "^22.1.1",
+    "animate.css": "^4.1.1",
     "apexcharts": "^3.15.3",
     "auth0-js": "^9.12.2",
     "availity-reactstrap-validation": "^2.6.1",
