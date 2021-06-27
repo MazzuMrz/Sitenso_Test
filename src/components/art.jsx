@@ -12,7 +12,7 @@ const art = () => {
       <div>
         <Container className="cont mt-5">
           <Row className="m-0">
-            <Col className=" m-3 titles_shop" id="ofertas">
+            <Col className=" m-3 text-warning titles_shop" id="ofertas">
               Ofertas del dia
             </Col>
             <ProductList />
@@ -21,7 +21,7 @@ const art = () => {
             </Col>
             <Productveggie />
 
-            <Col className="m-3 titles_shop text-danger" id="picantes">
+            <Col className="m-3 titles_shop text-warning" id="picantes">
               Burgers Picantes
             </Col>
             <Picantes />

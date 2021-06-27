@@ -1,7 +1,7 @@
 import React from 'react'
 import avalible from "../assets/images/logo/avalible.png"
 import avalible2 from "../assets/images/logo/avalible2.png"
-import logo from "../assets/img/logo/logo.png"
+
 
 const Avalible = () => {
     return (

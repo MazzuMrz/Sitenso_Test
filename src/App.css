@@ -43,13 +43,12 @@ body {
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   font-size: large;
-  animation: pulse;
-  animation-duration: 1s;
-  background: rgba(249, 49, 84, 0.7);
-  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(8.7px);
-  -webkit-backdrop-filter: blur(8.7px);
-  border-radius: 10px;
+  text-shadow: 1px 0px 4px #260c07;
+  background-color: #260c07;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right:20px ;
 }
 .button:hover{
   animation: pulse;
@@ -77,12 +76,10 @@ body {
   font-family: "Bebas Neue", cursive;
   font-weight: bold;
   font-size: 4rem;
-  text-shadow: 5px 0px 2px #f2c029;
+  text-shadow: 4px 0px 2px #260c07;
   letter-spacing: 0.5rem;
-  background: rgba(255, 169, 0, 0.65);
-  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background: rgb(209, 43, 70);
+ 
   border-radius: 10px;
 }
 .titles_shop:hover{
@@ -105,7 +102,7 @@ a {
   width: auto;
   background: rgba(255, 169, 0, 0.6);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
 
@@ -118,19 +115,24 @@ a {
 .conh3 {
   background: rgba(249, 49, 84, 0.7);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(8.7px);
+  backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(8.7px);
   border-radius: 10px;
   border-radius: 10px;
-  padding: 10px;
+  
   animation: bounceInRight;
   animation-duration: 1s;
 }
 
-h2,
+h2{
+  color: #260c07;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  padding: 5px;
+}
 h1 {
   color: #260c07;
-  text-shadow: 0px 3px 5px #f2c029;
+  text-shadow: 0px 1px 1px #260c07;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
   padding: 5px;
@@ -141,8 +143,8 @@ h1 {
 h3 {
   color: #f2c029;
 
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  
+  font-family: "Bebas Neue", cursive;
 }
 .descrip {
   font-weight: bold;
@@ -175,7 +177,6 @@ h3 {
 .sobre {
   padding: 10px;
   border-radius: 10px;
-
   border-right: medium;
   border-color: #260c07;
   border-width: medium;

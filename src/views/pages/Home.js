@@ -10,8 +10,9 @@ class Home extends React.Component {
     return (
       <div>
         <Smbar />
-        <Avalible/>
         <hr/>
+        <Avalible/>
+        
         <Container >
           <Carousel className="d-none d-sm-block" >
             <Carousel.Item>

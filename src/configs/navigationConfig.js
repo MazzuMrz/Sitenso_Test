@@ -5,7 +5,7 @@ const navigationConfig = [
     id: "home",
     title: "Menu",
     type: "item",
-    icon: <Icon.Smile size={30} />,
+    icon: <Icon.ShoppingCart size={30} />,
     permissions: ["admin", "editor"],
     navLink: "/Sitenso_Test"
   },
