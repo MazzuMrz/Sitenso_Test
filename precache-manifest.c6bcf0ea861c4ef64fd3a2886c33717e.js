@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd87509a3920abc2ea0c002244acc9b5",
+    "revision": "0cee83d6d6fd9c4c21c98db773fc47e9",
     "url": "/Sitenso_Test/index.html"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/5.ff8348d7.chunk.js"
   },
   {
-    "revision": "7bb9096a47f8b9bc0e76",
-    "url": "/Sitenso_Test/static/js/6.ec567c26.chunk.js"
+    "revision": "110f46accd9517e219cd",
+    "url": "/Sitenso_Test/static/js/6.7fec30e7.chunk.js"
   },
   {
     "revision": "269964efb675764b9905",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/main.6644bed2.chunk.js"
   },
   {
-    "revision": "7dd423bc8bad3310d839",
-    "url": "/Sitenso_Test/static/js/runtime-main.6fcdb1ed.js"
+    "revision": "c650910be9ed548d24fe",
+    "url": "/Sitenso_Test/static/js/runtime-main.5312b018.js"
   },
   {
     "revision": "e943cb1a2fa118238814effb8f279cab",
