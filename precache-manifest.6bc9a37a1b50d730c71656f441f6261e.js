@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cee83d6d6fd9c4c21c98db773fc47e9",
+    "revision": "706bb40cf007c65db9530c03bb74d676",
     "url": "/Sitenso_Test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/css/2.a5f06b7f.chunk.css"
   },
   {
-    "revision": "34c26b4c9da01a422961",
-    "url": "/Sitenso_Test/static/css/4.1bfc775c.chunk.css"
+    "revision": "4e21cde84dc77376df36",
+    "url": "/Sitenso_Test/static/css/4.e3e4e7e3.chunk.css"
   },
   {
     "revision": "8b22f9f25c9f8b4154eb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/css/8.c7324919.chunk.css"
   },
   {
-    "revision": "6bf94dd63d0fba2d4509",
+    "revision": "d49e43e66b3dd7bb8bb9",
     "url": "/Sitenso_Test/static/css/main.1cb2272a.chunk.css"
   },
   {
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/3.41da9a57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34c26b4c9da01a422961",
+    "revision": "4e21cde84dc77376df36",
     "url": "/Sitenso_Test/static/js/4.be3c23d0.chunk.js"
   },
   {
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/5.ff8348d7.chunk.js"
   },
   {
-    "revision": "110f46accd9517e219cd",
-    "url": "/Sitenso_Test/static/js/6.7fec30e7.chunk.js"
+    "revision": "c0a3b70414de4ae50ded",
+    "url": "/Sitenso_Test/static/js/6.ba19de4d.chunk.js"
   },
   {
     "revision": "269964efb675764b9905",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sitenso_Test/static/js/8.1b4614bd.chunk.js"
   },
   {
-    "revision": "6bf94dd63d0fba2d4509",
-    "url": "/Sitenso_Test/static/js/main.6644bed2.chunk.js"
+    "revision": "d49e43e66b3dd7bb8bb9",
+    "url": "/Sitenso_Test/static/js/main.d80fe3ef.chunk.js"
   },
   {
-    "revision": "c650910be9ed548d24fe",
-    "url": "/Sitenso_Test/static/js/runtime-main.5312b018.js"
+    "revision": "2ba85b2d745693523287",
+    "url": "/Sitenso_Test/static/js/runtime-main.c1dfd354.js"
   },
   {
     "revision": "e943cb1a2fa118238814effb8f279cab",
