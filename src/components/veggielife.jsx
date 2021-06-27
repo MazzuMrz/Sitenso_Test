@@ -25,44 +25,52 @@ const Veggie = () => {
 
                 <h4>{productDetail.price}</h4>
                 <div className="text-center  text-md-center m-2">
-                  <Button className="button" variant="success" onClick={handleShow}>
+                  <Button
+                    className="button"
+                    variant="success"
+                    onClick={handleShow}
+                  >
                     Comprar
                   </Button>
 
                   <Modal show={show} onHide={handleClose}>
                     <Modal.Header className="bg-warning ">
-                      <Modal.Title className="h1 text-danger ">¡Gracias por tu pedido!</Modal.Title>
+                      <Modal.Title className="h1 text-danger ">
+                        ¡Gracias por tu pedido!
+                      </Modal.Title>
                     </Modal.Header>
-                    <Modal.Body className="h2">Donde te mandamos tu burger?</Modal.Body>
+                    <Modal.Body className="h2">
+                      Donde te mandamos tu burger?
+                    </Modal.Body>
                     <Form.Group className="p-2">
                       <Form.Control
                         size="lg"
                         type="text"
                         placeholder="Direccion"
                       />
-                       <hr/>
-                     
+                      <hr />
+
                       <Form.Control
                         size="lg"
                         type="text"
                         placeholder="Nombre completo"
                       />
-                       <hr/>
-                      
+                      <hr />
+
                       <Form.Control
                         size="lg"
                         type="text"
                         placeholder="Indicaciones"
                       />
-                      <hr/>
-                      
+                      <hr />
+
                       <Form.Control
                         size="lg"
                         type="text"
                         placeholder="Contacto"
                       />
-                      <hr/>
-                      
+                      <hr />
+
                       <Form>
                         {["radio"].map((type) => (
                           <div key={`inline-${type}`} className="mb-3">
@@ -87,11 +95,24 @@ const Veggie = () => {
                         ))}
                       </Form>
                     </Form.Group>
-                    <Modal.Footer>
-                    <Button className="p-3" variant="success" onClick={handleClose}>
+                    <div className="text-center">
+                      <h2>Gracias por elegirnos!</h2>
+                    </div>
+                    <Modal.Footer className="justify-content-center">
+                      <hr />
+                      <br />
+                      <Button
+                        className="p-2 pl-4 pr-4"
+                        variant="success"
+                        onClick={handleClose}
+                      >
                         Enviar pedido
                       </Button>
-                      <Button className="p-3" variant="danger" onClick={handleClose}>
+                      <Button
+                        className="p-2"
+                        variant="danger"
+                        onClick={handleClose}
+                      >
                         Salir
                       </Button>
                     </Modal.Footer>
