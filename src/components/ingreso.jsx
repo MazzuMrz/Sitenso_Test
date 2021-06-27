@@ -17,8 +17,8 @@ const ingreso = () => {
             <div className="conh1 ">
               <h1>A tu placer!</h1>
             </div>
-            <div className="conh3 bg-danger d-none d-sm-block d-xs-none d-md-block d-lg-block ">
-              <h3 className="">Busca que vas a comer hoy</h3>
+            <div className="conh3 bg-dark d-none d-sm-block d-xs-none d-md-block d-lg-block ">
+              <h2 className="">Busca que vas a comer hoy</h2>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

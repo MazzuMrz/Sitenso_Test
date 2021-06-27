@@ -185,7 +185,7 @@ class NavbarBookmarks extends React.PureComponent {
             className="nav-item d-none d-md-block"
             onClick={this.handleBookmarksVisibility}>
             <NavLink>
-              <Icon.Search className="text-warning" size={21} />
+              <Icon.Search className="text-warning bell" size={30} />
             </NavLink>
             <div
               className={classnames("bookmark-input search-input", {

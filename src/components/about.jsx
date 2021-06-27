@@ -8,7 +8,7 @@ const card_about = () => {
   return (
     <div>
       <CardGroup className="descrip" >
-        <Card>
+        <Card className="card_about">
           <Card.Body>
             <Card.Title>
               <IconContext.Provider value={{ color: "#260C07", size: "3rem" }}>
@@ -24,7 +24,7 @@ const card_about = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="card_about">
           <Card.Body>
             <Card.Title>
               <IconContext.Provider value={{ color: "#260C07", size: "3rem" }}>
@@ -40,7 +40,7 @@ const card_about = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card>
+        <Card className="card_about">
           <Card.Body>
             <Card.Title>
               <IconContext.Provider value={{ color: "#260C07", size: "3rem" }}>
@@ -56,9 +56,12 @@ const card_about = () => {
           </Card.Body>
         </Card>
       </CardGroup>
-      <h1 className="pt-3">Buen provecho te desea:</h1>
+   
+      <h1 className="pt-3 logo">Buen provecho te desea:</h1>
+      
       <img src={logo} className="w-25" alt="Nuestro logo" />
       
+      <br/>
     </div>
   );
 };

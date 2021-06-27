@@ -80,7 +80,7 @@ const Contacto = () => {
               </form>
 
               <div className="text-center  text-md-center m-2">
-                <Button variant="success" onClick={handleShow}>
+                <Button variant="success" className="button" onClick={handleShow}>
                   Enviar
                 </Button>
 
@@ -88,8 +88,10 @@ const Contacto = () => {
                   <Modal.Header >
                     <Modal.Title>¡Gracias por tu tiempo!</Modal.Title>
                   </Modal.Header>
-                  <Modal.Body>
+                  <Modal.Body className="modal_1 h5">
                    Nos estaremos poniendo en contacto contigo en la brevedad
+                   <hr/>
+                   <h6>Atte: Staff de Burger Factory</h6>
                   </Modal.Body>
                   <Modal.Footer>
                     <Button variant="danger" onClick={handleClose}>

@@ -7,6 +7,10 @@ body {
 .img {
   width: 150px;
 }
+.bell:hover {
+  animation: heartBeat;
+  animation-duration: 2s;
+}
 .img2 {
   width: 125px;
 }
@@ -25,6 +29,10 @@ body {
   animation: bounceIn;
   animation-duration: 2s;
 }
+.card_about:hover{
+  animation: bounce;
+  animation-duration: 1s;
+}
 
 .nav {
   font-family: "Bebas Neue", cursive;
@@ -37,22 +45,27 @@ body {
 .menudown:hover {
   background-color: #df4759;
 }
-.modal{
+.modal {
   font-family: "Bebas Neue", cursive;
+}
+.modal_1{
+  font-family: "Montserrat", sans-serif;
 }
 .button {
   margin-top: auto;
   font-family: "Bebas Neue", cursive;
   font-weight: bolder;
   font-size: large;
-  text-shadow: 1px 0px 4px #260c07;
+  line-height: 10px;
+  letter-spacing: 2px;
+  text-shadow: 1px 0px 2px #260c07;
   background-color: #260c07;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
   padding-left: 20px;
-  padding-right:20px ;
+  padding-right: 20px;
 }
-.button:hover{
+.button:hover {
   animation: pulse;
   animation-duration: 2s;
 }
@@ -81,12 +94,12 @@ body {
   text-shadow: 4px 0px 2px #260c07;
   letter-spacing: 0.5rem;
   background: rgb(209, 43, 70);
- 
+
   border-radius: 10px;
 }
-.titles_shop:hover{
+.logo:hover {
   animation: bounce;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
 }
 
 .image {
@@ -115,18 +128,18 @@ a {
 }
 
 .conh3 {
-  background: rgba(249, 49, 84, 0.7);
+  background: rgba(37, 37, 37, 0.7);
   box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(8.7px);
   border-radius: 10px;
   border-radius: 10px;
-  
+
   animation: bounceInRight;
   animation-duration: 1s;
 }
 
-h2{
+h2 {
   color: #260c07;
   font-weight: bold;
   font-family: "Bebas Neue", cursive;
@@ -145,7 +158,6 @@ h1 {
 h3 {
   color: #f2c029;
 
-  
   font-family: "Bebas Neue", cursive;
 }
 .descrip {
@@ -167,11 +179,10 @@ h3 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
-.image:hover{
+.image:hover {
   animation: pulse;
   animation-duration: 1s;
 }
-
 
 .about {
   font-size: 20px;

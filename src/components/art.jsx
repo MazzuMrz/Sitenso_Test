@@ -12,16 +12,16 @@ const art = () => {
       <div>
         <Container className="cont mt-5">
           <Row className="m-0">
-            <Col className=" m-3 text-warning titles_shop" id="ofertas">
+            <Col className=" m-3 text-warning bg-dark titles_shop" id="ofertas">
               Ofertas del dia
             </Col>
             <ProductList />
-            <Col className=" m-3 titles_shop text-success" id="veggie">
+            <Col className=" m-3 titles_shop bg-dark text-success" id="veggie">
               100% Veggie
             </Col>
             <Veggie />
 
-            <Col className="m-3 titles_shop text-warning" id="picantes">
+            <Col className="m-3 titles_shop bg-dark text-warning" id="picantes">
               Burgers Picantes
             </Col>
             <Picantes />

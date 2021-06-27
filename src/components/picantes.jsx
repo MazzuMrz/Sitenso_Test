@@ -34,15 +34,15 @@ const Picantes = () => {
                   </Button>
 
                   <Modal show={show} onHide={handleClose}>
-                    <Modal.Header className="bg-warning ">
-                      <Modal.Title className="h1 text-danger ">
+                    <Modal.Header className="bg-dark ">
+                      <Modal.Title className="h1 text-warning ">
                         ¡Gracias por tu pedido!
                       </Modal.Title>
                     </Modal.Header>
                     <Modal.Body className="h2">
                       Donde te mandamos tu burger?
                     </Modal.Body>
-                    <Form.Group className="p-2">
+                    <Form.Group className="p-3 modal_1">
                       <Form.Control
                         size="lg"
                         type="text"
@@ -102,14 +102,14 @@ const Picantes = () => {
                       <hr />
                       <br />
                       <Button
-                        className="p-2 pl-4 pr-4"
+                        className="p-4 pl-4 pr-4 button"
                         variant="success"
                         onClick={handleClose}
                       >
                         Enviar pedido
                       </Button>
                       <Button
-                        className="p-2"
+                        className="p-4 pl-4 pr-4 button"
                         variant="danger"
                         onClick={handleClose}
                       >

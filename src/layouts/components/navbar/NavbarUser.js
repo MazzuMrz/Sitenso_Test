@@ -43,14 +43,14 @@ class NavbarUser extends React.PureComponent {
           tag="li"
           className="dropdown-notification nav-item"
         >
-          <DropdownToggle tag="a" className="nav-link nav-link-label bell">
-            <Icon.Bell size={30} />
+          <DropdownToggle tag="a" className="nav-link nav-link-label ">
+            <Icon.Bell className="bell" size={30} />
            
           </DropdownToggle>
           <DropdownMenu tag="ul" right className="dropdown-menu-media">
-            <li className="dropdown-menu-header bg-danger">
+            <li className="dropdown-menu-header bg-dark">
               <div className="dropdown-header  mt-0">
-                <h2 className="text-black">Solo para vos</h2>
+                <h2 className="text-warning">Solo para vos</h2>
                 <h3 className="text-warning">¡Ofertas!</h3>
               </div>
             </li>
@@ -65,21 +65,21 @@ class NavbarUser extends React.PureComponent {
                 <Media className="d-flex align-items-start">
                   <Media left href="#">
                     <Icon.DownloadCloud
-                      className="font-medium-5 success"
+                      className="font-medium-5 warning"
                       size={21}
                     />
                   </Media>
                   <Media body>
-                    <Media heading className="danger media-heading" tag="h6">
+                    <Media heading className="warning media-heading" tag="h4">
                      50% en Veggies Burgers
                     </Media>
-                    <p className="notification-text">
+                    <h5 className="" >
                       Por tu panza y el ambiente♥
-                    </p>
+                    </h5>
                   </Media>
                   <small>
                     <time
-                      className="media-meta"
+                      className="h6"
                       dateTime="2015-06-11T18:29:20+08:00"
                     >
                       Hasta las 23.30
@@ -96,16 +96,16 @@ class NavbarUser extends React.PureComponent {
                     />
                   </Media>
                   <Media body>
-                    <Media heading className="warning media-heading" tag="h6">
+                    <Media heading className="warning media-heading" tag="h4">
                       2x1 en Burgers picantes
                     </Media>
-                    <p className="notification-text">
+                    <h5 className="">
                       Para pasarla entre amigos;)
-                    </p>
+                    </h5>
                   </Media>
                   <small>
                     <time
-                      className="media-meta"
+                      className="h6"
                       dateTime="2015-06-11T18:29:20+08:00"
                     >
                       Todo el dia de hoy
@@ -122,16 +122,16 @@ class NavbarUser extends React.PureComponent {
                     />
                   </Media>
                   <Media body>
-                    <Media heading className="danger media-heading" tag="h6">
+                    <Media heading className="warning media-heading" tag="h4">
                       Dia de la cerveza!
                     </Media>
-                    <p className="notification-text">
+                    <p className="h5">
                       Si pedis 3 Burgers te regalamos la 4ta!
                     </p>
                   </Media>
                   <small>
                     <time
-                      className="media-meta"
+                      className="h6"
                       dateTime="2015-06-11T18:29:20+08:00"
                     >
                       Hasta las 21
@@ -142,8 +142,8 @@ class NavbarUser extends React.PureComponent {
              
             </PerfectScrollbar>
             <li className="dropdown-menu-footer text-warning">
-              <DropdownItem tag="a" className="p-3 bg-warning text-center">
-                <span className="align-middle text-warning">Entendido</span>
+              <DropdownItem tag="a" className="p-3 bg-warning text-center ">
+                <span className="h4 text-warning">Entendido</span>
               </DropdownItem>
             </li>
           </DropdownMenu>
