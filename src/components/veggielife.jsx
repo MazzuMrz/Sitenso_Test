@@ -25,7 +25,7 @@ class Productveggie extends Component {
                   </Card.Text>
 
                   <h4>{productDetail.price}</h4>
-                  <Button className="text-danger bg-warning button ">
+                  <Button className="text-light bg-success button">
                     Comprar
                   </Button>
                 </Card.Body>
