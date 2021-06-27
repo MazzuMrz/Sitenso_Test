@@ -1,41 +1,109 @@
-import React, { Component } from "react";
-import ProductData from "./datas/dataveggie.json";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Card, Button, Modal, Form } from "react-bootstrap";
+import ProductData from "../../src/components/datas/datapicante.json";
 
-class Productveggie extends Component {
-  render() {
-    return (
-      <div className=" d-flex justify-content-center row">
-        {ProductData.map((productDetail, index) => {
-          return (
-            <div className=" m-4 ">
-              <Card
-                style={{ width: "20rem", height: "34rem" }}
-                className="mb-2  "
-              >
-                <Card.Img className="image" src={productDetail.image} />
+const Veggie = () => {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-                <Card.Body className="">
-                  <Card.Title>
-                    <h1>{productDetail.name}</h1>
-                  </Card.Title>
-                  <Card.Text className="descrip">
-                    {productDetail.description}
-                  </Card.Text>
+  return (
+    <div className=" d-flex justify-content-center row ml-auto mr-auto shadow-none">
+      {ProductData.map((productDetail, index) => {
+        return (
+          <div className=" m-3 ">
+            <Card style={{ width: "20rem", height: "34rem" }} className="mb-2 ">
+              <Card.Img className="image" src={productDetail.image} />
 
-                  <h4>{productDetail.price}</h4>
-                  <Button className="text-light bg-success button">
+              <Card.Body className="m-3">
+                <Card.Title>
+                  <h1>{productDetail.name}</h1>
+                </Card.Title>
+                <Card.Text className="descrip">
+                  {productDetail.description}
+                </Card.Text>
+
+                <h4>{productDetail.price}</h4>
+                <div className="text-center  text-md-center m-2">
+                  <Button className="button" variant="success" onClick={handleShow}>
                     Comprar
                   </Button>
-                </Card.Body>
-              </Card>
-            </div>
-          );
-        })}
-      </div>
-    );
-  }
-}
 
-export default Productveggie;
+                  <Modal show={show} onHide={handleClose}>
+                    <Modal.Header className="bg-warning ">
+                      <Modal.Title className="h1 text-danger ">¡Gracias por tu pedido!</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body className="h2">Donde te mandamos tu burger?</Modal.Body>
+                    <Form.Group className="p-2">
+                      <Form.Control
+                        size="lg"
+                        type="text"
+                        placeholder="Direccion"
+                      />
+                       <hr/>
+                     
+                      <Form.Control
+                        size="lg"
+                        type="text"
+                        placeholder="Nombre completo"
+                      />
+                       <hr/>
+                      
+                      <Form.Control
+                        size="lg"
+                        type="text"
+                        placeholder="Indicaciones"
+                      />
+                      <hr/>
+                      
+                      <Form.Control
+                        size="lg"
+                        type="text"
+                        placeholder="Contacto"
+                      />
+                      <hr/>
+                      
+                      <Form>
+                        {["radio"].map((type) => (
+                          <div key={`inline-${type}`} className="mb-3">
+                            <Form.Check
+                              inline
+                              size="lg"
+                              label="Efectivo"
+                              name="group1"
+                              type={type}
+                              id={`inline-${type}-1`}
+                            />
+
+                            <Form.Check
+                              inline
+                              disabled
+                              size="lg"
+                              label="Debito/Credito (No disponible actualmente)"
+                              type={type}
+                              id={`inline-${type}-3`}
+                            />
+                          </div>
+                        ))}
+                      </Form>
+                    </Form.Group>
+                    <Modal.Footer>
+                    <Button className="p-3" variant="success" onClick={handleClose}>
+                        Enviar pedido
+                      </Button>
+                      <Button className="p-3" variant="danger" onClick={handleClose}>
+                        Salir
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
+                </div>
+              </Card.Body>
+            </Card>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+export default Veggie;

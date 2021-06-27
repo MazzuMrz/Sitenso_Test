@@ -37,7 +37,9 @@ body {
 .menudown:hover {
   background-color: #df4759;
 }
-
+.modal{
+  font-family: "Bebas Neue", cursive;
+}
 .button {
   margin-top: auto;
   font-family: "Bebas Neue", cursive;

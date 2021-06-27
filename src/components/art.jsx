@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Productveggie from "./veggielife.jsx";
+import Veggie from "./veggielife.jsx";
 import About from "./about.jsx";
 import Picantes from "./picantes.jsx";
 import ProductList from "./productlist.jsx";
@@ -19,7 +19,7 @@ const art = () => {
             <Col className=" m-3 titles_shop text-success" id="veggie">
               100% Veggie
             </Col>
-            <Productveggie />
+            <Veggie />
 
             <Col className="m-3 titles_shop text-warning" id="picantes">
               Burgers Picantes

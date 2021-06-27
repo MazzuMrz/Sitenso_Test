@@ -80,7 +80,7 @@ const Contacto = () => {
               </form>
 
               <div className="text-center  text-md-center m-2">
-                <Button variant="warning" onClick={handleShow}>
+                <Button variant="success" onClick={handleShow}>
                   Enviar
                 </Button>
 
